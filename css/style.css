@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Big Noodle Titling;
+  src: url("https://cdn.rawgit.com/foolofsoul/overwatch-character-match/master/fonts/big_noodle_titling.ttf");
+}
+
+@font-face {
+  font-family: Big Noodle Titling Oblique;
+  src: url("https://cdn.rawgit.com/foolofsoul/overwatch-character-match/master/fonts/big_noodle_titling_oblique.ttf");
+}
+body {
+  background:#1D100F;
+  box-sizing:border-box;
+}
+
+.main {
+  max-width: 1000px;
+  padding-top:15px;
+  margin: 150px auto;
+    background:#1D100F;
+  background-image: url("http://oi67.tinypic.com/2l8dxrl.jpg");
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position:-30px;
+}
+
+
+button {
+  font-family: Big Noodle Titling Oblique;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  display:block;
+  margin: 0 auto;
+  height: 250px;
+  width: 250px;
+  font-size: 60px;
+  color: #ee4bb5;
+  background-color: #5A66B3;
+  border:5px solid #ee4bb5;
+  text-shadow: 2px 2px 3px black;
+}
+button:active {
+    box-shadow: inset 1px 1px 8px black;
+}
+button:focus {
+  outline:0;
+}
+
+#text {
+   font-family: Big Noodle Titling Oblique;
+  color: #ee4bb5;
+  text-align:center;
+  font-size: 50px;
+  text-shadow: 3px 3px 3px black;
+  margin:15px auto;
+  height:50px;
+  padding-bottom: 10px;
+}
+.ani {
+  animation: fadein 0.3s ease;
+}
+
+@media (max-width:630px) {
+  body {
+    background-image:none;
+  }
+  .main {
+    padding-top: 40px;
+    margin: 0 auto;
+    background-position: top center;
+    background-size:contain;
+
+  }
+  button{
+    margin-top: 150px;
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+  }
+  #text {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+}
+@keyframes fadein {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
