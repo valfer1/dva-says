@@ -17,7 +17,7 @@ body {
   padding-top:15px;
   margin: 150px auto;
     background:#1D100F;
-  background-image: url(dva.png);
+  background-image: url("../dva.png");
   background-repeat:no-repeat;
   background-size: contain;
   background-position:-30px;
