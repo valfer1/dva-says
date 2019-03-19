@@ -6,37 +6,37 @@ function playSound() {
   
   var audio = new Audio();
   var playlist = new Array(
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/f/f6/D.Va_-_I%27m_gonna_have_to_shoot_you_down.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/7/73/D.nied.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/a/a0/D.Va_-_Bunny_hop.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/6/60/D.Va_-_Nerf_this%21.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/d/dd/D.Va_-_I_play_to_win%21.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/3/36/D.Va_-_I_can%27t_wait_to_get_into_the_fight.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/7/70/D.Va_-_Let%27s_shoot_for_a_new_high_score%21.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/a/a2/D.Va_-_Gameface_on.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/5/5f/D.Va_-_Think_you_can_keep_up_with_me.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/6/6e/D.Va_-_I%27m_going_to_own_all_these_noobs%21.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/3/3f/D.Va_-_I%27m_too_young_to_die.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/9/93/D.Va_-_I%27m_not_a_good_loser.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/c/cf/D.Va_-_Jjajeungna.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/0/08/D.Va_-_Boom_shakalaka_she%27s_on_fire.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/6/63/Kr_%281%29.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/0/0f/D.Va_-_D.Va_online.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/e/ed/There%27s_no_way_I%27m_losing._Attack%21.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/d/dc/Dva_with_the_score_d.va.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/0/07/D.Va_-_Love_D.Va.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/c/cb/D.Va_-_Are_you_even_trying.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/3/35/Epic%21.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/3/3f/D.Va_-_Get_owned.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/7/74/D.Va_-_Shut_down.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/2/22/D.Va_-_Don%27t_mess_with_me%21.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/b/bc/D.Va_-_Revenge_is_sweet.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/4/4a/D.Va_-_D.Va_1_bad_guys_0.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/9/90/D.Va_-_I_play_to_win_korean.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/4/4c/D.Va_-_Easy_mode.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/a/a4/D.Va_-_Lol.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/3/30/D.Va_-_Winky_face.ogg",
-    "https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/e/e3/Hey_daddy%27o.ogg"
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f6/D.Va_-_I%27m_gonna_have_to_shoot_you_down.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/7/73/D.nied.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/a/a0/D.Va_-_Bunny_hop.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/6/60/D.Va_-_Nerf_this%21.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/dd/D.Va_-_I_play_to_win%21.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/36/D.Va_-_I_can%27t_wait_to_get_into_the_fight.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/7/70/D.Va_-_Let%27s_shoot_for_a_new_high_score%21.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/a/a2/D.Va_-_Gameface_on.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/5/5f/D.Va_-_Think_you_can_keep_up_with_me.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/6/6e/D.Va_-_I%27m_going_to_own_all_these_noobs%21.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/3f/D.Va_-_I%27m_too_young_to_die.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/93/D.Va_-_I%27m_not_a_good_loser.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/c/cf/D.Va_-_Jjajeungna.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/08/D.Va_-_Boom_shakalaka_she%27s_on_fire.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/6/63/Kr_%281%29.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/0f/D.Va_-_D.Va_online.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ed/There%27s_no_way_I%27m_losing._Attack%21.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/dc/Dva_with_the_score_d.va.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/07/D.Va_-_Love_D.Va.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/c/cb/D.Va_-_Are_you_even_trying.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/35/Epic%21.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/3f/D.Va_-_Get_owned.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/7/74/D.Va_-_Shut_down.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/22/D.Va_-_Don%27t_mess_with_me%21.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/b/bc/D.Va_-_Revenge_is_sweet.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/4a/D.Va_-_D.Va_1_bad_guys_0.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/90/D.Va_-_I_play_to_win_korean.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/4c/D.Va_-_Easy_mode.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/a/a4/D.Va_-_Lol.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/30/D.Va_-_Winky_face.ogg",
+    "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/e2/Oh_thatll_be_play_of_the_game.ogg"
   );
   var index = Math.floor(Math.random() * playlist.length);
   audio.src = playlist[index];
@@ -134,7 +134,7 @@ function playSound() {
       text = "Winkyface.";
       break;
     case playlist[30]:
-      text = "Hey, daddy-o!";
+      text = "Oh, that'll be play of the game! Just wait and see. ";
       break;
   }
   
